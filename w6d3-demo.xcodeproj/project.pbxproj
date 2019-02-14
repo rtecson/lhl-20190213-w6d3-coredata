@@ -13,6 +13,10 @@
 		2A07B67D2214897900ABA2F5 /* w6d3_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A07B67B2214897900ABA2F5 /* w6d3_demo.xcdatamodeld */; };
 		2A07B67F2214897A00ABA2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A07B67E2214897A00ABA2F5 /* Assets.xcassets */; };
 		2A07B6822214897A00ABA2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A07B6802214897A00ABA2F5 /* LaunchScreen.storyboard */; };
+		2A07B68D2214A18700ABA2F5 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07B6892214A18700ABA2F5 /* Person+CoreDataClass.swift */; };
+		2A07B68E2214A18800ABA2F5 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07B68A2214A18700ABA2F5 /* Person+CoreDataProperties.swift */; };
+		2A07B68F2214A18800ABA2F5 /* Pet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07B68B2214A18700ABA2F5 /* Pet+CoreDataClass.swift */; };
+		2A07B6902214A18800ABA2F5 /* Pet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07B68C2214A18700ABA2F5 /* Pet+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2A07B67E2214897A00ABA2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A07B6812214897A00ABA2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A07B6832214897A00ABA2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A07B6892214A18700ABA2F5 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A07B68A2214A18700ABA2F5 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2A07B68B2214A18700ABA2F5 /* Pet+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pet+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A07B68C2214A18700ABA2F5 /* Pet+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pet+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,10 @@
 		2A07B6682214897900ABA2F5 = {
 			isa = PBXGroup;
 			children = (
+				2A07B6892214A18700ABA2F5 /* Person+CoreDataClass.swift */,
+				2A07B68A2214A18700ABA2F5 /* Person+CoreDataProperties.swift */,
+				2A07B68B2214A18700ABA2F5 /* Pet+CoreDataClass.swift */,
+				2A07B68C2214A18700ABA2F5 /* Pet+CoreDataProperties.swift */,
 				2A07B6732214897900ABA2F5 /* w6d3-demo */,
 				2A07B6722214897900ABA2F5 /* Products */,
 			);
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A07B68D2214A18700ABA2F5 /* Person+CoreDataClass.swift in Sources */,
+				2A07B6902214A18800ABA2F5 /* Pet+CoreDataProperties.swift in Sources */,
+				2A07B68E2214A18800ABA2F5 /* Person+CoreDataProperties.swift in Sources */,
 				2A07B6772214897900ABA2F5 /* ViewController.swift in Sources */,
 				2A07B6752214897900ABA2F5 /* AppDelegate.swift in Sources */,
 				2A07B67D2214897900ABA2F5 /* w6d3_demo.xcdatamodeld in Sources */,
+				2A07B68F2214A18800ABA2F5 /* Pet+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
